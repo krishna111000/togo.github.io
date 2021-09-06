@@ -14,7 +14,68 @@
   <!-- Custom Styles -->
   <link rel="stylesheet" href="style.css">
 </head>
+<style>
+ body {
+    height: 100vh;
+    font-size: 15pt;
+    background-color: white;
+}
+.head{
+  color: purple;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(250,200,250,0.5);
+  text-shadow: 2px 2px 6px;
+ }
 
+input::placeholder{
+  color:blueviolet;
+  text-shadow: 1px 1px 4px;
+  
+}
+#input{
+  border-style: none;
+  border-radius: 15px;
+  background-color: lightcyan;
+  outline-style: none;
+  height:40px;
+  padding-left: 10px;
+  text-shadow:1px 1px 3px;
+  margin-left: 100px;
+  margin-top: 100px;
+  
+}
+ul li{
+  color:purple;
+  background:#eee;
+  border-radius: 5px;
+  height: 23px;
+  width:auto;
+  margin: 15px;
+  padding: 10px;
+  list-style: none;
+  text-shadow: 1px 1px 4px;
+}
+ul .fa-check, .fa-trash{
+  position: absolute;
+  
+}
+ul .fa-check{
+  right: 40px;
+  color: lime;
+  
+}
+ul .fa-trash{
+  right: 20px;
+  color:red;
+}
+p{
+  font-size: 15px;
+  text-shadow: 1px 1px 20px;
+}
+
+</style>
 <body>
   <div class="head">
     <h3>To Do List</h3>
