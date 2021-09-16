@@ -1,104 +1,184 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <title>HTML</title>
   
-  <!-- HTML -->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+ 
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+<title>HTML</title>
+  
+  
+<!-- HTML -->
   
 
   <!-- Custom Styles -->
-  
+ 
+<link rel="stylesheet" href="style.css">
 </head>
+
+
 <style>
- body {
-    height: 100vh;
+  body {
     font-size: 15pt;
-    background-color: white;
+    background-color:snow;
+    scroll-behavior: smooth;
 }
-.head{
-  color: purple;
-  display: grid;
+
+.main{
+  margin:20px;
+  height: 50px;
+  width: 90%;
+  box-shadow:10px 0px 0px 0.5px darkgray;
+  border-radius: 10px;
+  background-color:mediumspringgreen;
+}
+
+.main h4{
+  color: grey;
+  display:flex;
   align-items: center;
   justify-content: center;
-  background-color:rgba(250,200,250,0.5);
-  text-shadow: 2px 2px 6px;
- }
+  padding-top: 10px;
+  
+}
 
-input::placeholder{
-  color:blueviolet;
-  text-shadow: 1px 1px 4px;
-  
+.nav ul{
+  padding: 0;
+  margin: 0;
 }
-#input{
-  border-style: none;
-  border-radius: 15px;
-  background-color: lightcyan;
-  outline-style: none;
-  height:40px;
-  padding-left: 10px;
-  text-shadow:1px 1px 3px;
-  margin-left: 100px;
-  margin-top: 100px;
-  
-}
-ul li{
-  color:purple;
-  background:#eee;
-  border-radius: 5px;
-  height: 23px;
-  width:auto;
-  margin: 15px;
-  padding: 10px;
+.nav ul li{
+  height:20px;
+  width: auto;
   list-style: none;
-  text-shadow: 1px 1px 4px;
-}
-ul .fa-check, .fa-trash{
-  position: absolute;
-  
-}
-ul .fa-check{
-  right: 40px;
-  color: lime;
-  
-}
-ul .fa-trash{
-  right: 20px;
-  color:red;
-}
-p{
-  font-size: 15px;
-  text-shadow: 1px 1px 20px;
+  display: inline-block;
+  margin: 6px;
+  padding: 6px;
+  justify-content: space-around;
+  border:0.3px solid mediumspringgreen;
 }
 
+.nav ul li a{
+  text-decoration: none;
+  color:grey;
+}
+.nav ul li:hover {
+  border: 0.5px solid red;
+}
+
+.foot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.foot img{
+  height:100%;
+  width:100%;
+  background-size: cover;
+}
+.a{
+   color:lightseagreen;
+   padding: 20px;
+   font-size: 15px;
+}
+
+.a h5{
+  font-size: 36px;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h7{
+  color:orange;
+}
 </style>
 <body>
-  <div class="head">
-    <h3>To Do List</h3>
+  <div class="nav">
+   <ul>
+ <li><a href="#">Home</a></li>     
+ <li><a href="#">About</a></li>      
+<li><a href="#">Contact</a></li>     
+<li><a href="#">Help</a></li>    
+</ul>
+  </div>
+ 
+ <div class="main">
+   
+ <h4>Admin page</h1>
+   
+ <div class="sub">  
+ </div>
   </div>
   
-  <p>We are developed a to do list using jQuery</p><p>Where you can delete the delete items using delete button</p>
-  <div class="container">
-    <input type="text" id="input" placeholder="Enter the Task">
+<div class="foot">
+   
+ <img src="https://maxcdn.icons8.com/app/uploads/2019/09/education-illustrations-10.png"/>
+  </div>
+ 
+ <div class="a">
+    <h5>Upcoming Events</h5>
   
-  <ul></ul>
+  <img src="https://www.teaminduce.com/assets/img/car9.png" style="width: 100%">
+   
+ <button><a href="#">Click here to enroll</a></button>
+ 
+   <img src="https://www.teaminduce.com/assets/img/intern1.png" style="width: 100%">
+    
+  
+  <p><b>Enhance your Designing Skills with Induce
+<br><br>
+Amazing opportunity for civil and mechanical Engineer's
+<br>
+<br>
+In this present innovative world, we know the importance of designing process. Designing is the key process using which we shape our ideas. 
+CAD(Computer Aided Design) is one of the best software used for the process of designing. Designing is the art through which we represent our ideas.
+ Using Sketchup software tools one can bring perfection in their designs. For designing external buildings one can master Revit concepts.
+<br>
+SketchUp is a dominant and sophisticated tool that makes building informative and constructability modeling attainable to everyone. 
+
+<br><br>
+Revit as a unified modelling tool for architecture, engineering, and construction.
+<br><br>
+Here INDUCE is providing the best training program and
+
+ making the candidates in companies  for the Internship and job opportunities based on person's capability.
+
+Courses offered are:<br><br>
+
+<h7>Package1</h7>
+:AutoCAD+Photoshop (basic)+Internship<br><br>
+<h7>Package2</h7>:
+ AutoCAD+3ds max/revit + Photoshop (basic) without Internship<br><br>
+<h7>Package3</h7>:
+ AutoCAD+3ds max/revit + Photoshop (basic)+internship<br><br>                
+  <h7>Package4</h7>: Only AutoCAD
+
+For more details and admission into the training program visit
+ @
+<br>
+https://teaminduce.com/internships.html
+
+<br><br>
+<h7>Contact@</h7>
+Sai Raj
+9573511693
+Sampreeth
+<ul>82475 74016</ul></b></p>
+ 
+   <img src="https://img.freepik.com/free-vector/hotline-operator-advises-client_7737-1766.jpg?size=626&ext=jpg" style="width:100%" height="150px"/>
   </div>
   <!-- Project -->
-  <script>
-    $(document).ready(function(){
-  $('#input').change(function(){
-    var input=$(this).val();
-    $('ul').append('<li>'+input+'<i class= "fas fa-trash"></i></li>');
-  });
-  $('ul').on('click','.fa-trash', function(){
-    $(this).parent('li').fadeOut(200);
-  });
-});
-
+  
+<script src="main.js">
 </script>
+
 </body>
+
 </html>
